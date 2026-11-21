@@ -1,0 +1,44 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Test results and coverage
+TestResults/
+coverage/
+*.trx
+
+# NuGet and package artifacts
+*.nupkg
+*.snupkg
+packages/
+
+# ASP.NET Core development artifacts
+https/
+*.pfx
+
+# Local configuration and secrets
+appsettings.Local.json
+appsettings.*.Local.json
+secrets.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Cache packages
+.cachepkg/
+*.cachepkg
